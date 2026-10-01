@@ -1,0 +1,104 @@
+IssueID,RowIndex,OrderID,Column,IssueType,Description,Value
+1,50,US-2024-100551,Customer Name,missing_value,Customer Name is missing,
+2,89,US-2023-100242,Customer Name,missing_value,Customer Name is missing,
+3,142,US-2023-100400,Customer Name,missing_value,Customer Name is missing,
+4,148,US-2023-100233,Customer Name,missing_value,Customer Name is missing,
+5,194,US-2024-100447,Customer Name,missing_value,Customer Name is missing,
+6,209,US-2024-100146,Customer Name,missing_value,Customer Name is missing,
+7,327,US-2023-100208,Customer Name,missing_value,Customer Name is missing,
+8,337,US-2024-100506,Customer Name,missing_value,Customer Name is missing,
+9,509,US-2024-100353,Customer Name,missing_value,Customer Name is missing,
+10,535,US-2023-100253,Customer Name,missing_value,Customer Name is missing,
+11,568,US-2024-100515,Customer Name,missing_value,Customer Name is missing,
+12,575,US-2023-100456,Customer Name,missing_value,Customer Name is missing,
+13,8,US-2023-100318,Postal Code,missing_value,Postal Code is missing,
+14,18,US-2023-100120,Postal Code,missing_value,Postal Code is missing,
+15,46,US-2024-100066,Postal Code,missing_value,Postal Code is missing,
+16,88,US-2024-100185,Postal Code,missing_value,Postal Code is missing,
+17,239,US-2023-100488,Postal Code,missing_value,Postal Code is missing,
+18,274,US-2023-100344,Postal Code,missing_value,Postal Code is missing,
+19,319,US-2023-100482,Postal Code,missing_value,Postal Code is missing,
+20,368,US-2024-100496,Postal Code,missing_value,Postal Code is missing,
+21,607,US-2023-100072,Postal Code,missing_value,Postal Code is missing,
+22,5,US-2023-100442,Region,missing_value,Region is missing,
+23,85,US-2024-100533,Region,missing_value,Region is missing,
+24,178,US-2023-100037,Region,missing_value,Region is missing,
+25,299,US-2023-100001,Region,missing_value,Region is missing,
+26,303,US-2023-100073,Region,missing_value,Region is missing,
+27,437,US-2024-100412,Region,missing_value,Region is missing,
+28,467,US-2024-100593,Region,missing_value,Region is missing,
+29,609,US-2023-100037,Region,missing_value,Region is missing,
+30,79,US-2023-100192,Ship Date,missing_value,Ship Date is missing,
+31,146,US-2023-100207,Ship Date,missing_value,Ship Date is missing,
+32,189,US-2023-100538,Ship Date,missing_value,Ship Date is missing,
+33,301,US-2024-100027,Ship Date,missing_value,Ship Date is missing,
+34,501,US-2024-100352,Ship Date,missing_value,Ship Date is missing,
+35,605,US-2024-100129,Ship Date,missing_value,Ship Date is missing,
+36,231,US-2024-100579,ALL,duplicate_row,Exact duplicate of an earlier row,
+37,346,US-2023-100067,ALL,duplicate_row,Exact duplicate of an earlier row,
+38,388,US-2023-100053,ALL,duplicate_row,Exact duplicate of an earlier row,
+39,400,US-2024-100457,ALL,duplicate_row,Exact duplicate of an earlier row,
+40,438,US-2024-100346,ALL,duplicate_row,Exact duplicate of an earlier row,
+41,462,US-2023-100134,ALL,duplicate_row,Exact duplicate of an earlier row,
+42,524,US-2024-100010,ALL,duplicate_row,Exact duplicate of an earlier row,
+43,4,US-2023-100197,Sales,invalid_range,Sales must be greater than 0,-452.52
+44,64,US-2024-100554,Sales,invalid_range,Sales must be greater than 0,-175.32
+45,124,US-2023-100214,Sales,invalid_range,Sales must be greater than 0,-3171.49
+46,196,US-2024-100333,Sales,invalid_range,Sales must be greater than 0,-2893.8
+47,347,US-2023-100423,Sales,invalid_range,Sales must be greater than 0,-374.0
+48,360,US-2023-100206,Sales,invalid_range,Sales must be greater than 0,-546.36
+49,387,US-2024-100366,Sales,invalid_range,Sales must be greater than 0,-275.9
+50,521,US-2023-100269,Sales,invalid_range,Sales must be greater than 0,-257.84
+51,55,US-2023-100059,Quantity,invalid_range,Quantity must be between 1 and 20,0
+52,165,US-2023-100004,Quantity,invalid_range,Quantity must be between 1 and 20,0
+53,266,US-2024-100258,Quantity,invalid_range,Quantity must be between 1 and 20,0
+54,283,US-2024-100519,Quantity,invalid_range,Quantity must be between 1 and 20,0
+55,526,US-2023-100332,Quantity,invalid_range,Quantity must be between 1 and 20,0
+56,609,US-2023-100037,Quantity,invalid_range,Quantity must be between 1 and 20,0
+57,25,US-2024-100111,Discount,invalid_range,Discount must be between 0 and 1,2.0
+58,34,US-2023-100306,Discount,invalid_range,Discount must be between 0 and 1,1.2
+59,37,US-2023-100436,Discount,invalid_range,Discount must be between 0 and 1,-0.2
+60,107,US-2023-100368,Discount,invalid_range,Discount must be between 0 and 1,-0.3
+61,123,US-2024-100541,Discount,invalid_range,Discount must be between 0 and 1,-0.1
+62,321,US-2023-100453,Discount,invalid_range,Discount must be between 0 and 1,-0.05
+63,324,US-2023-100014,Discount,invalid_range,Discount must be between 0 and 1,1.5
+64,458,US-2024-100399,Discount,invalid_range,Discount must be between 0 and 1,1.8
+65,558,US-2024-100025,Discount,invalid_range,Discount must be between 0 and 1,1.1
+66,41,US-2024-100091,Ship Date,date_consistency,Ship Date is earlier than Order Date,2024-01-20 -> 2024-01-18
+67,149,US-2023-100480,Ship Date,date_consistency,Ship Date is earlier than Order Date,2023-01-10 -> 2023-01-08
+68,200,US-2023-100016,Ship Date,date_consistency,Ship Date is earlier than Order Date,2023-01-30 -> 2023-01-28
+69,209,US-2024-100146,Ship Date,date_consistency,Ship Date is earlier than Order Date,2024-05-03 -> 2024-05-01
+70,357,US-2023-100163,Ship Date,date_consistency,Ship Date is earlier than Order Date,2023-07-10 -> 2023-07-08
+71,469,US-2024-100467,Ship Date,date_consistency,Ship Date is earlier than Order Date,2024-09-19 -> 2024-09-17
+72,609,US-2023-100037,Ship Date,date_consistency,Ship Date is earlier than Order Date,2023-12-10 -> 2023-12-08
+73,83,US-2023-100273,Category/Sub-Category,referential_consistency,Sub-Category does not belong to the stated Category,Office Supplies / Accessories
+74,180,US-2023-100479,Category/Sub-Category,referential_consistency,Sub-Category does not belong to the stated Category,Technology / Art
+75,201,US-2023-100584,Category/Sub-Category,referential_consistency,Sub-Category does not belong to the stated Category,Office Supplies / Bookcases
+76,256,US-2024-100018,Category/Sub-Category,referential_consistency,Sub-Category does not belong to the stated Category,Furniture / Art
+77,354,US-2024-100294,Category/Sub-Category,referential_consistency,Sub-Category does not belong to the stated Category,Technology / Tables
+78,487,US-2024-100020,Category/Sub-Category,referential_consistency,Sub-Category does not belong to the stated Category,Furniture / Fasteners
+79,519,US-2024-100544,Category/Sub-Category,referential_consistency,Sub-Category does not belong to the stated Category,Furniture / Accessories
+80,541,US-2024-100348,Category/Sub-Category,referential_consistency,Sub-Category does not belong to the stated Category,Furniture / Supplies
+81,597,US-2024-100357,Category/Sub-Category,referential_consistency,Sub-Category does not belong to the stated Category,Technology / Tables
+82,111,US-2023-100172,State/Region,referential_consistency,Region does not match the stated State,Illinois / South
+83,122,US-2023-100061,State/Region,referential_consistency,Region does not match the stated State,Massachusetts / Central
+84,129,US-2024-100548,State/Region,referential_consistency,Region does not match the stated State,Virginia / Central
+85,172,US-2024-100335,State/Region,referential_consistency,Region does not match the stated State,Illinois / West
+86,217,US-2023-100537,State/Region,referential_consistency,Region does not match the stated State,Ohio / South
+87,221,US-2023-100428,State/Region,referential_consistency,Region does not match the stated State,Ohio / South
+88,245,US-2024-100002,State/Region,referential_consistency,Region does not match the stated State,Washington / East
+89,390,US-2024-100587,State/Region,referential_consistency,Region does not match the stated State,Massachusetts / Central
+90,146,US-2023-100207,State,formatting_inconsistency,State has inconsistent casing or extra whitespace,'michigan'
+91,155,US-2023-100061,State,formatting_inconsistency,State has inconsistent casing or extra whitespace,'MASSACHUSETTS'
+92,156,US-2023-100532,State,formatting_inconsistency,State has inconsistent casing or extra whitespace,'  New Jersey  '
+93,241,US-2023-100203,State,formatting_inconsistency,State has inconsistent casing or extra whitespace,'WASHINGTON'
+94,289,US-2023-100349,State,formatting_inconsistency,State has inconsistent casing or extra whitespace,'  Massachusetts  '
+95,300,US-2023-100311,State,formatting_inconsistency,State has inconsistent casing or extra whitespace,'TEXAS'
+96,328,US-2023-100131,State,formatting_inconsistency,State has inconsistent casing or extra whitespace,'WASHINGTON'
+97,504,US-2023-100354,State,formatting_inconsistency,State has inconsistent casing or extra whitespace,'ILLINOIS'
+98,584,US-2023-100007,State,formatting_inconsistency,State has inconsistent casing or extra whitespace,'  New Jersey  '
+99,603,US-2024-100508,State,formatting_inconsistency,State has inconsistent casing or extra whitespace,'oregon'
+100,58,US-2023-100512,City,formatting_inconsistency,City has inconsistent casing or extra whitespace,'dallas'
+101,87,US-2023-100445,City,formatting_inconsistency,City has inconsistent casing or extra whitespace,'  Phoenix  '
+102,142,US-2023-100400,City,formatting_inconsistency,City has inconsistent casing or extra whitespace,'  Chicago  '
+103,526,US-2023-100332,City,formatting_inconsistency,City has inconsistent casing or extra whitespace,'LOS ANGELES'
